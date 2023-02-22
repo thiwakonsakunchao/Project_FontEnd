@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+/* Gloock */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    background: #FEFBE9;
+}
+
+.bg {
+    background-color: #183A1D;
+}
+
+nav{
+    width: 100%;
+}
+
+.navbar-brand{
+    color: #F0A04B;
+}
+
+.navbar-brand:hover{
+    color: #E1EEDD;
+}
+
+button.navbar-toggler{
+    color: #F0A04B;
+}
+
+p{
+    margin-bottom: 0;
+    margin-right: 50px;
+}
+
+.navbar-item{
+   
+    cursor: pointer;
+    border-style: solid;
+    padding: 0 18px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.navbar-item:hover{
+    border-style: solid;
+    padding: 0 18px;
+    border-color: #FEFBE9;
+    border-radius: 10px;
+   
+    
+}
+
+#user-icon,#cart-icon{
+    color: #F0A04B;
+}
+
+
+
+.IC{
+    padding: 0px 8px;
+}
+
+a.nav-link{
+   text-align: center;
+}
+
+i.fas{
+    margin: 10px;
+}
+
+
+section#promotion{
+    padding: 100px 0px 100px 0;
+}
+
+
+.carousel-inner{
+    border-radius: 50px;
+}
+
+.promotext{
+    font-family: 'Gloock';
+    
+}
+
+.promotext h1{
+    font-size: 70px;
+     margin-bottom: 50px;
+}
+.promotext span{
+    color: #F0A04B;
+}
+
+.check-btn{
+    min-width: 120px;
+    min-height: 58px;
+    background: #183A1D;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: #F0A04B;
+    text-transform: capitalize;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    padding: 6px 30px;
+    text-decoration: none
+}
+
+.check-btn:hover {
+    color: #FEFBE9;
+}
+
+section#about{
+     padding: 100px 0px 100px 0;
+     background-color: #183A1D;
+}
+
+
+
+video{
+    border-radius: 150px;
+     padding-top: 20px; 
+     padding-bottom: 30px;
+   
+    
+    
+}
+
+
+.text-about{
+    text-align: center;
+    color: #FEFBE9;
+    
+}
+
+.lorem-about{
+    margin-left: 50px;
+}
