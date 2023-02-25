@@ -31,7 +31,7 @@ p{
     margin-bottom: 0;
     margin-right: 50px;
 }
-
+/* 
 .navbar-item{
    
     cursor: pointer;
@@ -42,15 +42,17 @@ p{
     margin-top: 5px;
     margin-bottom: 5px;
     
-}
-.navbar-item:hover{
+    
+} */
+
+/* .navbar-item:hover{
     border-style: solid;
     padding: 0 18px;
     border-color: #FEFBE9;
     border-radius: 10px;
    
     
-}
+} */
 
 #user-icon,#cart-icon{
     color: #F0A04B;
@@ -146,3 +148,28 @@ video{
 .lorem-about{
     margin-left: 50px;
 }
+
+
+
+button.nav-link{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    padding: 0 18px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+}
+
+button.nav-link:hover{
+    border-style: solid;
+    padding: 0 18px;
+    border-color: #FEFBE9;
+    border-radius: 10px;
+    
+}
+
+
+
