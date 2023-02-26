@@ -4,34 +4,32 @@ body{
  
  .login-form{
      background-color: #FEFBE9;
-     width: 600px;
-     height: 750px;
+     width: 500px;
+     height: 600px;
      border-radius: 24px;
      padding: 20px;
  }
+
+
  
  .login-form h1{
      font-size: 30px;
-     margin-bottom: 20px;
-     margin-top: 20px;
+    
  }
  
  .login-form form{
-     font-size: 15px;
+    height: 300px;
+     font-size: 13px;
  
  }
  
- .login-form form .form-group{
-     margin-bottom: 15px;
- }
- 
- button{
-     padding-bottom: 150px;
- }
+
  
  .btn-warning{
-     margin: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
  }
  p{
-     margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
  }
