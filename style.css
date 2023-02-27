@@ -651,6 +651,14 @@ footer{
 }
 
 @media screen and (max-width: 540px) {
+
+    .navbar-brand img{
+        width: 10px;
+        height: 80px;
+        transform: scale(1.6);
+        margin-left: 0.1px;
+    }
+
     .card{
         background-color: white;
         width: 100%;
@@ -677,6 +685,20 @@ footer{
         margin-right: 20px;
     }
     
+    ul.menu li.button{
+        
+        background-color: #183A1D ;
+        margin: 10px;
+        border-width: 3px;
+        border-radius: 190px;
+        transition: 0.3s;
+        padding: 1px;
+        cursor: pointer;
+        border-style: solid;
+        border-color: #183A1D;
+        color: white;
+    
+    }
 }
 
 
