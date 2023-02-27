@@ -686,18 +686,15 @@ footer{
     }
     
     ul.menu li.button{
-        
-        background-color: #183A1D ;
         margin: 10px;
         border-width: 3px;
         border-radius: 190px;
         transition: 0.3s;
         padding: 1px;
-        cursor: pointer;
-        border-style: solid;
-        border-color: #183A1D;
-        color: white;
-    
+    }
+
+    .button-promo{
+        width: 40%;     
     }
 }
 
