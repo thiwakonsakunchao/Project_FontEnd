@@ -95,7 +95,7 @@ i.fas{
     margin: 10px;
 }
 
-
+/* Promotion */
 section#promotion{
     padding: 100px 0px 100px 0;
 }
@@ -137,6 +137,7 @@ section#promotion{
     overflow: hidden;
     position: relative;
     z-index: 2;
+    margin-bottom: 50px;
     padding: 6px 30px;
     text-decoration: none
 }
@@ -156,12 +157,20 @@ section#about{
 
 
 video{
-    border-radius: 150px;
-     padding-top: 20px; 
-     padding-bottom: 30px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #F0A04B;
+    background-color: black;
+    width: 500px;
+    max-width: 100%;
    
-    
-    
+
+}
+
+.video-shushi{
+   text-align: center;
+   max-width: 100%;
+   width: 100%;
 }
 
 
@@ -182,6 +191,7 @@ video{
 
 .lorem-about{
     margin-left: 50px;
+    
 }
 
 
@@ -196,6 +206,7 @@ h2>span{
 
 .font-about{
     font-family: 'Popins';
+    margin-bottom: 30px;
 }
 
 
@@ -217,6 +228,11 @@ h2>span{
 .filterDiv{
     background-color: #F0A04B;
     border-radius: 20px;
+}
+
+div.header{
+    font-family: 'Popins';
+   
 }
 
 
@@ -470,7 +486,7 @@ ul.menu li.button:hover{
 /* food */
 .card-product-box{
     width: 100%;
-    height: 20%;
+    height: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -480,7 +496,7 @@ ul.menu li.button:hover{
 .card{
     background-color: white;
     width: 20%;
-    height: 100%;
+    height: 120%;
     border-radius: 20px;
     margin: 10px 20px;
     position: relative;
@@ -495,12 +511,12 @@ ul.menu li.button:hover{
     left: 0;
     transition: 0.5s;
     border-radius: 20px;
-    cursor: pointer;
+   
     content: "";
 }
 
 .card:hover:before{
-    background-color: grey;
+    backdrop-filter: blur(5px);
 }
 
 .image{
@@ -511,6 +527,7 @@ ul.menu li.button:hover{
 }
 
 .image img{
+  
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -556,7 +573,12 @@ ul.menu li.button:hover{
 .card:hover .btn{
     font-size: 1.5rem;
     height: 90px;
+    background-color: #F0A04B;
 }
+
+
+
+
 
 
 /* Footer */
@@ -616,7 +638,8 @@ footer{
     width: 100%;
     padding: 20px 0;
     text-align: center;
-    padding-left: 3%;
+    padding-left: 7px;
+   
 }
 
 .footer-bottom p{
@@ -624,6 +647,7 @@ footer{
     word-spacing: 2px;
     text-transform: capitalize;
     text-align: center;
+    margin-right: 0 ;
 }
 
 .footer-bottom span{
@@ -660,3 +684,5 @@ footer{
     }
     
 }
+
+
