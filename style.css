@@ -74,7 +74,7 @@ p{
 }
 
 #cart-icon{
-    color: #FEFBE9;
+    color: #F0A04B;
 }
 
 #cart-icon:hover{
@@ -237,16 +237,12 @@ div.header{
 
 
 
-
-
-
-
-
 button.nav-link{
    background-color: rgba(0, 0, 0, 0);
    border-style: solid;
+   border-width: 5px;
    border-radius: 10px;
-   border-color: white;
+   border-color: #F0A04B;
 }
 
 
@@ -357,7 +353,7 @@ padding: 10px 0;
     border: none;
     border-radius: 5px;
     height: 80%;
-    width: 100%;
+    width: 25%;
     cursor: pointer;
 }
 
@@ -366,9 +362,9 @@ padding: 10px 0;
     height: 40px;
     text-align: center;
     background-color: #183A1D;
+    color: white;
     border: none;
     border-radius: 20px;
-    color: white;
     cursor: pointer;
 }
 
@@ -376,8 +372,6 @@ padding: 10px 0;
     text-transform: uppercase;
     font-weight: 600;
 }
-
-
 
 /* Scrolltop */
 #progress{
