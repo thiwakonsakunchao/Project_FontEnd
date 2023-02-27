@@ -29,6 +29,13 @@ nav{
     color: #E1EEDD;
 }
 
+.navbar-brand img{
+    width: auto;
+    height: 150px;
+    transform: scale(1.6);
+    padding-left: 10%;
+}
+
 button.navbar-toggler{
     color: #F0A04B;
 }
