@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
-/* Gloock */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-/* Popins */
+
+
 
 html{
     scroll-behavior: smooth;
@@ -698,9 +696,10 @@ footer{
 @media screen and (max-width: 540px) {
 
     .navbar-brand img{
-        
+        width: auto;
+        height: 70px;
         transform: scale(1.6);
-        margin-left: 0.1px;
+        padding-left: 10%;
     }
 
     .card{
@@ -741,5 +740,4 @@ footer{
         width: 40%;     
     }
 }
-
 

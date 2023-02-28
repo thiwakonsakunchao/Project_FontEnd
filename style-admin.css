@@ -1,12 +1,16 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+/* Gloock */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* Popins */
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 
 body {
-  background-color: #FEFBE9;
+  background-color: #FEFBE9 !important;
+ 
 }
 
 * {
-  font-family: "Poppins", sans-serif;
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,6 +23,10 @@ html {
   overflow-x: hidden;
   scroll-padding-top: 5.5rem;
   scroll-behavior: smooth;
+  background-color: #FEFBE9;
+  
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 thread .bg-success{
@@ -28,6 +36,10 @@ thread .bg-success{
 
 .btn {
   font-size: 1.2rem;
+  border-color: #183A1D !important;
+}
+.dropdown-toggle{
+  color: #F0A04B !important;
 }
 
 .btn-outline-success:hover {
@@ -36,7 +48,7 @@ thread .bg-success{
 }
 
 .modal-content {
-  border: solid 25px #183A1D !important;
+    border: solid 5px #183A1D !important;
 }
 
 input[type="number"]::-webkit-inner-spin-button {
@@ -54,3 +66,11 @@ input[type="number"]::-webkit-inner-spin-button {
     row-gap: 1rem;
   }
 }
+
+
+th{
+  background-color: #183A1D !important;
+  color: #F0A04B ;
+  font-weight: bold;
+}
+
