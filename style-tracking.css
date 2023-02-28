@@ -15,7 +15,7 @@ body {
 
 .container {
     background-color: white;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     padding-top: 10px;
     margin-top: 50px;
     margin-bottom: 100px
@@ -150,6 +150,7 @@ ul.row-sm {
     border-style: 5px solid;
     border-color: #E1EEDD;
     background-color: #E1EEDD!important;
+    text-decoration: none;
 }
 
 .btn2{
@@ -165,11 +166,16 @@ ul.row-sm {
     border-style: 5px solid;
     border-color: #E1EEDD;
     background-color: #E1EEDD!important;
+    text-decoration: none;
 }
 
 /* Map */
 .map .maps{
     width: 100%;
+}
+
+.map{
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 820px ) {

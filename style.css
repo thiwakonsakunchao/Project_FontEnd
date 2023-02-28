@@ -37,8 +37,42 @@ nav{
 }
 
 button.navbar-toggler{
-    color: #F0A04B;
+    color: #F0A04B; 
+    border-width: 5px;
 }
+
+button.navbar-item{
+    border-width: 2.4px !important;
+  
+}
+
+.button-user{
+    width: 100%;
+   
+   
+
+}
+
+.button-cart{
+    width: 100%;
+    margin-left: 10px !important;
+    
+   
+}
+
+
+@media (max-width: 992px){
+
+    .button-cart{
+        width: 100%;
+        margin-left: 0px !important;
+        
+       
+    }
+}
+
+
+
 
 p{
     margin-bottom: 0;
@@ -77,10 +111,13 @@ p{
     color: #F0A04B;
 }
 
-#cart-icon:hover{
-    color: #183A1D;
-}
+/* #cart-icon:hover{
+  
+} */
 
+ul.navbar-nav{
+    justify-content: space-between;
+}
 
 
 .IC{
@@ -94,6 +131,8 @@ a.nav-link{
 i.fas{
     margin: 10px;
 }
+
+
 
 /* Promotion */
 section#promotion{
@@ -379,8 +418,8 @@ padding: 10px 0;
     position: fixed;
     bottom: 20px;
     right: 10px;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     display: none;
     place-items: center;
     border-radius: 80px;
@@ -474,7 +513,10 @@ ul.menu li.button a:hover{
 }
 
 ul.menu li.button:hover{
-    background-color: #183A1D;
+    background: #FEFBE9;
+    border-style: solid;
+    border-color: #F0A04B;
+    color: #F0A04B;
 }
 
 /* food */
@@ -653,8 +695,7 @@ footer{
 @media screen and (max-width: 540px) {
 
     .navbar-brand img{
-        width: 10px;
-        height: 80px;
+        
         transform: scale(1.6);
         margin-left: 0.1px;
     }
