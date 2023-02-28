@@ -39,3 +39,10 @@ p{
     margin-top: 10px;
 }
 
+button.close-button{
+    padding: 0px;
+    background: none;
+    border-style: none;
+}
+
+
