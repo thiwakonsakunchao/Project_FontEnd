@@ -29,18 +29,20 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./style-admin.css" />
+    <link rel="stylesheet" href="./mdb.min.css">
 
     <!-- Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="mdb.min.css">
   </head>
   <body>
     <div class="container-md my-5">
       <div class="pt-5 mb-4">
         <h6 class="mb-0">
-          <a href="./login.html" class="text-body text-decoration-none"><i class="fas fa-long-arrow-alt-left me-2"></i>Logout</a>
+          <a href="./login.html" class="logout text-body text-decoration-none"><i class="fas fa-long-arrow-alt-left me-2"></i>Logout</a>
         </h6>
       </div>
 
@@ -62,7 +64,7 @@
               <td>
                 <div class="d-flex align-items-center">
                   <img
-                    src="./assets/icon.jpg"
+                    src="./images/chef/c1.jpg"
                     alt=""
                     style="width: 45px; height: 45px"
                     class="rounded-circle"
@@ -83,13 +85,12 @@
                 ></button>
 
                 <!-- Modal -->
-                <div
-                  class="modal fade"
-                  id="exampleModal"
-                  tabindex="-1"
-                  aria-labelledby="exampleModalLabel"
-                  aria-hidden="true"
-                >
+                  <div
+                    class="modal fade"
+                    id="exampleModal"
+                    tabindex="-1"
+                    aria-hidden="true"
+                  >
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header border-bottom-0">
@@ -101,17 +102,10 @@
                         ></button>
                       </div>
                       <div class="modal-body text-start text-black p-4">
-                        <h5
-                          class="modal-title text-uppercase"
-                          id="exampleModalLabel"
-                        >
-                          SORAWEE SRIPHAKDEEPHONGDEJ
-                        </h5>
-                        <p class="text-secondary mb-4">098-593-8108</p>
-                        <h4 class="mb-4" style="color: #27ae60">
+                        <h4 class="mb-4" style="color: #183A1D">
                           Thanks for your order
                         </h4>
-                        <p class="mb-0" style="color: #27ae60">
+                        <p class="mb-0" style="color: #183A1D">
                           Payment summary
                         </p>
                         <hr
@@ -141,7 +135,7 @@
 
                         <div class="d-flex justify-content-between">
                           <p class="fw-bold">Total</p>
-                          <p class="fw-bold" style="color: #27ae60">$20.99</p>
+                          <p class="fw-bold" style="color: #27ae60">$100</p>
                         </div>
                       </div>
                       <div
@@ -162,7 +156,7 @@
               <td>
                 <span class="badge badge-success rounded-pill">Done</span>
               </td>
-              <td>$ 20.99</td>
+              <td>$100</td>
               <td>
                 <button type="button" class="btn btn-link btn-sm btn-rounded">
                   Edit
@@ -174,7 +168,7 @@
               <td>
                 <div class="d-flex align-items-center">
                   <img
-                    src="./assets/founder2.jpg"
+                    src="./images/chef/c2.jpg"
                     class="rounded-circle"
                     alt=""
                     style="width: 45px; height: 45px"
@@ -198,7 +192,7 @@
               <td>
                 <span class="badge badge-primary rounded-pill">Cooking</span>
               </td>
-              <td>$ 20.99</td>
+              <td>$100</td>
               <td>
                 <button
                   type="button"
@@ -214,7 +208,7 @@
               <td>
                 <div class="d-flex align-items-center">
                   <img
-                    src="./assets/founder1.jpg"
+                    src="./images/chef/c3.jpg"
                     class="rounded-circle"
                     alt=""
                     style="width: 45px; height: 45px"
@@ -238,7 +232,7 @@
               <td>
                 <span class="badge badge-warning rounded-pill">Queue</span>
               </td>
-              <td>$ 20.99</td>
+              <td>$100</td>
               <td>
                 <button
                   type="button"
@@ -262,6 +256,6 @@
     ></script>
 
     <!-- mdb js -->
-    <script type="text/javascript" src="./scripts/mdb.min.js"></script>
+    <script type="text/javascript" src="/mdb.min.js"></script>
   </body>
 </html>
