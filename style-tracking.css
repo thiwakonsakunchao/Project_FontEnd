@@ -169,6 +169,11 @@ ul.row-sm {
     text-decoration: none;
 }
 
+.btn_ccod{
+    display: flex;
+    justify-content: space-between !important;
+}
+
 /* Map */
 .map .maps{
     width: 100%;
